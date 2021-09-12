@@ -1,0 +1,227 @@
+/*NAV*/
+.navbar {
+    background: rgb(80, 77, 77);
+   
+}
+.nav-link{
+    color:#f4f4f4;
+    cursor: pointer;
+}
+.nav-brand{
+    color: white;
+    transform-style: none;
+    font-size: 20px;
+    text-decoration: none;
+}
+.nav-brand :hover{
+  background: #f4f4f4;
+  color: grey;
+  border-radius: 2px;
+  text-decoration: none;
+
+}
+.nav-link:hover{
+    background: #f4f4f4;
+    color: rgb(68, 66, 66);
+    border-radius: 5px;
+}
+.navbar-toggler{
+    background: white;
+}
+.collapse{
+  margin-left: 3rem;
+}
+
+/*HEADER*/
+.header {
+    background-image: url("../img/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: left;
+}
+.overlay{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    left: 0;
+    top: 0;
+    background: rbga(244,244,244,0.7);
+}
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    padding: 10em;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+
+
+/*text*/
+.description{
+    top: 30%;
+    position: left;
+    margin: 2em;
+    padding: 5em;
+}
+.description h1{
+    color: yellow;
+}
+.description p{
+    color: turquoise;
+    font-size: 20px;
+    width: 50%;
+    line-height: 1.5;
+}
+.description button{
+    border: 1px solid rgb(184, 184, 91);
+    background: rgb(226, 226, 88);
+    color: white;
+}
+/*About*/
+
+.about{
+    margin: 1em 0;
+    padding: 1em;
+    position: relative;
+    background-image: url("../img/pozadinaAbout.jpg");background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.about h1{
+    color: yellow;
+    margin: 1em;
+}
+.about img{
+    display: block;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    position: relative;
+    float: right;
+}
+.about span{
+    display: block;
+    color: darkviolet;
+    font-style: italic;
+}
+.about .desc{
+    padding: 1em;
+    border-left: 4px solid #110088;
+}
+.about .desc .h3{
+    color: blue;
+}
+.about desc, p{
+    line-height: 2;
+    color: rgb(0, 0, 0);
+}
+
+/*Portfolio*/
+.portfolio{
+    margin: 1em 0;
+    padding: 1em;
+    position: relative;
+    background-image: url("../img/pozadinaPortfolio.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    
+}
+.portfolio h1{
+    padding: 0em;
+    color: yellow;
+    margin: 1em;
+}
+.portfolio img{
+    width: 100%;
+    margin: 1em;
+    height: 30rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
